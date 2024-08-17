@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional custom styles can be added here */
+/* index.css or your global stylesheet */
+/* index.css or your global stylesheet */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1a1a1a; /* Your preferred background color */
+    color: white; /* Default text color */
+  }
+  
+  * {
+    box-sizing: inherit;
+  }
+  
+  /* Add padding inside the content container */
+  .container {
+    max-width: 1200px; /* Adjust to your preferred maximum width */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px; /* Inner padding to create spacing */
+    padding-right: 20px; /* Inner padding to create spacing */
+    padding-top: 20px; /* Optional padding for top */
+    padding-bottom: 20px; /* Optional padding for bottom */
+  }
+  
+  
