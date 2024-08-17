@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-const thumbnail1 = new URL('../../public/images/thumbnail1.png', import.meta.url).href;
-const thumbnail2 = new URL('../../public/images/thumbnail2.png', import.meta.url).href;
-const thumbnail3 = new URL('../../public/images/thumbnail3.png', import.meta.url).href;
-const thumbnail4 = new URL('../../public/images/thumbnail4.png', import.meta.url).href;
-const thumbnail5 = new URL('../../public/images/thumbnail5.png', import.meta.url).href;
 
+import thumbnail1 from '../images/thumbnail1.png';
+import thumbnail2 from '../images/thumbnail2.png';
+import thumbnail3 from '../images/thumbnail3.png';
+import thumbnail4 from '../images/thumbnail4.png';
+import thumbnail5 from '../images/thumbnail5.png';
 const VideoCarousel = () => {
   const [activeVideo, setActiveVideo] = useState(0);
 
