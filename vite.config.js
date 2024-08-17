@@ -5,8 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: "/HireGen/",
-  assetsInclude: ["**/*.png", "**/*.PNG"],  // Include PNG files
-  build: {
-    assetsInlineLimit: 0,  // Adjust limit if necessary to ensure assets are handled correctly
-  }
+  assetsInclude: ["**/*.png", "**/*.PNG"],  // Ensure patterns match your files
 })
